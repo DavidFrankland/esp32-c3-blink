@@ -11,8 +11,8 @@ void setup()
 void loop()
 {
   // Serial.println("Flash");
-  digitalWrite(LED_BUILTIN, HIGH); // LED is OFF
-  delay(900);
   digitalWrite(LED_BUILTIN, LOW); // LED is ON
   delay(100);
+  digitalWrite(LED_BUILTIN, HIGH); // LED is OFF
+  delay(900);
 }
